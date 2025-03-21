@@ -53,6 +53,12 @@
       href="https://cdn-icons-png.flaticon.com/512/2615/2615079.png"
       type="image/x-icon"
     />
+
+    <!-- font awesome -->
+    <script
+    src="https://kit.fontawesome.com/9a631af9fd.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body class="bg-[#FDFDFD]">
     <nav
@@ -73,9 +79,9 @@
             </div>
             <div class="hidden sm:block">
               <div class="flex">
-                <label class="input rounded-r-none rounded-l-full">
+                <label class="input rounded-r-none rounded-l-full hover:border-none outline-none">
                   <img src="icon/Search.png" alt="" />
-                  <input type="search" class="grow" placeholder="Search" />
+                  <input type="search" class="grow border-none hover:border-none outline-none" placeholder="Search" />
                 </label>
                 <button
                   class="cursor-pointer bg-[#FFA500] text-white rounded-r-full p-2 hover:bg-[#e2b45f]"
@@ -126,15 +132,17 @@
         </p>
         <div class="relative sm:w-4/6 w-11/12 sm:mt-7 mt-5 border rounded-full">
           <div class="absolute top-1 left-1 bg-[#00B047] flex items-center justify-center sm:gap-2 gap-1 sm:p-2 py-1 sm:px-1 px-0 sm:w-30 w-[70px] rounded-l-full">
-            <img class="sm:w-3 sm:h-3 w-2 h-2 sm:mr-4" src="icon/maps-and-flags 1.png" alt="" />
+            <i class="fa-solid fa-location-dot text-white sm:text-"></i>
+            <!-- <img class="sm:w-3 sm:h-3 w-2 h-2 sm:mr-4" src="icon/maps-and-flags 1.png" alt="" /> -->
             <p class="text-white sm:text-[18px] text-xs">location</p>
-            <img class="w-2 h-2 cursor-pointer" src="icon/Polygon 1.png" alt="" />
+            <a href="#"><i class="fa-solid fa-angle-down text-white cursor-pointer"></i></a>
+            <!-- <img class="w-2 h-2 cursor-pointer" src="icon/Polygon 1.png" alt="" /> -->
           </div>
           <div class="relative">
             <input class="sm:h-12 w-3/4 sm:ml-32 sm:mr-0 ml-[75px] mr- h-8 border-none anabled:hover:border-none outline-none" type="search" name="" id="" />
-            <img class="absolute  sm:top-1 right-[4px] top-[4px] bg-[#00B047] sm:w-10 sm:h-10 w-[24px] h-[24px] p-1 rounded-full" src="icon/search-interface-symbol 1.png" alt="">
+            <i class="fa-solid fa-magnifying-glass absolute  sm:top-1 right-[4px] top-[4px] bg-[#00B047] sm:text-3xl text-white p-1 rounded-full"></i>
           </div>
-          
+          <!--  class="absolute  sm:top-1 right-[4px] top-[4px] bg-[#00B047] sm:w-10 sm:h-10 w-[24px] h-[24px] p-1 rounded-full" -->
         </div>
       </div>
 
@@ -189,7 +197,7 @@
     <div class="w-11/12 mx-auto flex items-center justify-between">
       <div>
         <h1 class="text-2xl font-[500]">Explore <span class="text-[#FF7D29]">Top Restaurants</span></h1>
-      <p>Check your city Near by Restaurant</p>
+      <p class="text-[#758888] font-normal">Check your city Near by <br>Restaurant</p>
       </div>
       <div class="flex gap-[7px] items-center">
         <a href="#">See All</a>
