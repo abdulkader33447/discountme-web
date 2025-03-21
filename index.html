@@ -53,7 +53,6 @@
       href="https://cdn-icons-png.flaticon.com/512/2615/2615079.png"
       type="image/x-icon"
     />
-    
   </head>
   <body class="">
     <nav
@@ -64,67 +63,94 @@
       >
         <div class="flex items-center justify-center gap-8">
           <div class="flex items-center justify-center gap-14">
-            <div class="flex-1">
-              <a class="cursor-pointer text-xl"
-                ><img class="h-14" src="images/Discount me-01-01 1.png" alt=""
+            <div class="w-20 sm:w-44">
+              <a class="cursor-pointer"
+                ><img
+                  class="hover:bg-[#fee3af] rounded-lg p-1"
+                  src="images/Discount me-01-01 1.png"
+                  alt=""
               /></a>
             </div>
-            <div class="flex">
-              <label class="input rounded-l-full">
-                <img src="icon/Search.png" alt="" />
-                <input type="search" class="grow" placeholder="Search" />
-              </label>
-              <button
-                class="cursor-pointer bg-[#FFA500] text-white rounded-r-full p-2"
-              >
-                Search
-              </button>
+            <div class="hidden sm:block">
+              <div class="flex">
+                <label class="input rounded-r-none rounded-l-full">
+                  <img src="icon/Search.png" alt="" />
+                  <input type="search" class="grow" placeholder="Search" />
+                </label>
+                <button
+                  class="cursor-pointer bg-[#FFA500] text-white rounded-r-full p-2 hover:bg-[#e2b45f]"
+                >
+                  Search
+                </button>
+              </div>
             </div>
           </div>
           <div class="flex-none">
-            <ul class="menu menu-horizontal px-1 flex gap-10">
+            <ul class="menu menu-horizontal px-1 flex sm:gap-10 gap-3">
               <li>
                 <details>
-                  <summary>All Category</summary>
+                  <summary class="hover:bg-[#FFA500] hover:text-white">All Category</summary>
                   <ul class="bg-base-100 rounded-t-none p-2">
-                    <li><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
+                    <li class="hover:bg-[#FFA500] hover:text-white rounded-md"><a>Link 1</a></li>
+                    <li class="hover:bg-[#FFA500] hover:text-white rounded-md"><a>Link 2</a></li>
+                    <li class="sm:hidden "><a>Coupon</a></li>
+                    <li class="sm:hidden"><a>Support</a></li>
                   </ul>
                 </details>
               </li>
-              <li><a>Coupon</a></li>
-              <li><a>Support</a></li>
+
+              <li class="hidden sm:block hover:bg-[#FFA500] hover:text-white rounded-md"><a>Coupon</a></li>
+              <li class="hidden sm:block hover:bg-[#FFA500] hover:text-white rounded-md"><a>Support</a></li>
             </ul>
           </div>
         </div>
-        <div class="flex items-center justify-center gap-4">
-          <img
+        <div class="flex items-center justify-center sm:gap-4 gap-2">
+          <a href="#"><img
             class="w-5 h-5"
             src="icon/8666616_shopping_cart_icon 1 (1).png"
             alt=""
-          />
-          <img class="w-5 h-5 text-black" src="icon/user.png" alt="" />
-        </div>
+          /></a>
+          <a href="#"><img class="w-5 h-5 text-black" src="icon/user.png" alt="" />
+          </div></a>
       </div>
     </nav>
 
     <!-- banner -->
-    <section class="w-11/12 mx-auto mt-16 flex items-center relative">
+    <section class="relative w-11/12 mx-auto mt-16 sm:flex items-center justify-between">
       <!-- banner text -->
       <div>
-        <h1>Good <span class="text-[#FFa500]">food</span>, great memories</h1>
-        <p>
+        <h1 class="sm:text-[96px] text-3xl">Good <span class="text-[#FFa500]">food</span>, great memories</h1>
+        <p class="sm:text-3xl">
           Enable diners to customize their booking by requesting a specific
           table location or view.
         </p>
-        <input type="search" name="" id="">
+        <div class="relative ">
+          <div class="absolute top-1 left-1 bg-[#00B047] flex items-center justify-center sm:gap-2 gap-1 sm:p-2 p-1 sm:w-30 w-22 rounded-l-full">
+            <img class="sm:w-3 sm:h-3 w-2 h-2 sm:mr-4" src="icon/maps-and-flags 1.png" alt="" />
+            <p class="text-white sm:text-[18px] text-xs">location</p>
+            <img class="w-2 h-2 cursor-pointer" src="icon/Polygon 1.png" alt="" />
+          </div>
+          <div>
+            <input class="sm:h-12 sm:w-[600px] h-8 rounded-full" type="text" name="" id="" />
+            <img class="absolute sm:right-[400px] sm:top-1 right-[115px] top-[4px] bg-[#00B047] sm:w-10 sm:h-10 w-[24px] h-[24px] p-1 rounded-full" src="icon/search-interface-symbol 1.png" alt="">
+          </div>
+          
+        </div>
       </div>
 
       <!-- banner img-1 -->
-      <div><img src="images/Polygon 1.png" alt=""><img src="images/Vector 3.png" alt=""></div>
+      <div class="absolute bottom-85 left-[540px] hidden sm:block ">
+        <div class="relative">
+          <img class="absolute top-26 right-[540px]" src="images/Polygon 1.png" alt="" />
+        <img
+          src="images/Vector 3.png"
+          alt=""
+        />
+        </div>
+      </div>
 
       <!-- banner img-2 -->
-      <div><img src="images/Coffee shop-amico 1.png" alt=""></div>
+      <div class="hidden sm:block"><img src="images/Coffee shop-amico 1.png" alt="" /></div>
     </section>
     <script src="script/discount.js"></script>
   </body>

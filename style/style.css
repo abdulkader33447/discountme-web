@@ -1,51 +1,47 @@
 /* colors */
-.primary-color{
-  color: #00B047;
+.primary-color {
+  color: #00b047;
 }
 
-.secondary-color{
-  color: #FFA500;
+.secondary-color {
+  color: #ffa500;
 }
 
-.base-color{
-  color: #1C1C1E;
+.base-color {
+  color: #1c1c1e;
 }
 
-.white-color{
-  color: #FDFDFD;
+.white-color {
+  color: #fdfdfd;
 }
-
 
 /* font families */
-  .font-figtree{
-    font-family: "Figtree", sans-serif;
-  }
-  .font-roboto{
-    font-family: "Roboto", sans-serif;
-  }
-  .font-DM{
-    font-family: "DM Sans", sans-serif;
-
-  }
-  .font-inter{
-    font-family: "Inter", sans-serif;
-
-  }
-.font-Kumbh{
+.font-figtree {
+  font-family: "Figtree", sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-DM {
+  font-family: "DM Sans", sans-serif;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-Kumbh {
   font-family: "Kumbh Sans", sans-serif;
-
 }
 
 /* heading */
-h1{
- font-weight: 700; 
- font-size: 3rem;
- line-height: 120%;
- color: #212121;
- letter-spacing: 0%;
-}
+/* h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 120%;
+  color: #212121;
+  letter-spacing: 0%;
+} */
 
-h2{
+h2 {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 120%;
@@ -53,7 +49,7 @@ h2{
   color: #212121;
 }
 
-h3{
+h3 {
   font-weight: 700;
   font-size: 2rem;
   line-height: 120%;
@@ -61,7 +57,7 @@ h3{
   color: #212121;
 }
 
-h4{
+h4 {
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 120%;
@@ -69,7 +65,7 @@ h4{
   color: #212121;
 }
 
-h5{
+h5 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 120%;
@@ -77,10 +73,13 @@ h5{
   color: #212121;
 }
 
-h6{
+h6 {
   font-weight: 700;
   font-size: 1.12rem;
   line-height: 120%;
   letter-spacing: 0%;
   color: #212121;
 }
+
+
+/*  */
